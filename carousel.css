@@ -1,35 +1,141 @@
-.carousel{
+.carousel {
     z-index: 1;
     display: flex;
     flex-direction: row;
-    height: 95vh;
+    height: 100vh;
     position: absolute;
     top: 0;
     transition: 0.5s ease;
+    cursor: grab;
 }
-.slide1,.slide2,.slide3,.slide4,.slide5{
+
+.slide1,
+.slide2,
+.slide3,
+.slide4,
+.slide5 {
     width: 100vw;
-    height: 95vh;
+    height: 100vh;
     background-size: 100vw;
     background-repeat: no-repeat;
 }
-.slide1{
-    background-image: url(images/carousel1.webp);
+
+.slide1 {
+    background-image: url(Assets/images/carousel1.jpg);
 
 }
-.slide2{
-    background-image: url(images/carousel2.webp);
+
+.slide2 {
+    background-image: url(Assets/images/carousel2.webp);
 
 }
-.slide3{
-    background-image: url(images/carousel3.webp);
+
+.slide3 {
+    background-image: url(Assets/images/carousel3.webp);
 
 }
-.slide4{
-    background-image: url(images/carousel4.webp);
+
+.slide4 {
+    background-image: url(Assets/images/carousel4.webp);
 
 }
-.slide5{
-    background-image: url(images/carousel5.webp);
+
+.slide5 {
+    background-image: url(Assets/images/carousel5.webp);
 
 }
+
+.slidetop {
+    position: absolute;
+    display: block;
+    top: 0vh;
+    left: 10vw;
+    font-family: brut, "Neue Montreal";
+    color: #ff3d00;
+    font-weight: 100;
+    font-size: 12rem;
+}
+
+.slideleft {
+    position: absolute;
+    display: block;
+    top: 35vh;
+    left: 2vw;
+    font-family: brut, "Neue Montreal";
+    color: #ff3d00;
+    font-weight: 100;
+    font-size: 12rem;
+}
+
+.slideright {
+    position: absolute;
+    display: block;
+    top: 35vh;
+    left: 70vw;
+    font-family: brut, "Neue Montreal";
+    color: #ff3d00;
+    font-weight: 100;
+    font-size: 12rem;
+}
+
+.slidebottom {
+
+    position: absolute;
+    display: block;
+    top: 70vh;
+    left: 50vw;
+    font-family: brut, "Neue Montreal";
+    color: #ff3d00;
+    font-weight: 100;
+    font-size: 12rem;
+
+}
+.slidebox{
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 30vw;
+    height: 20vh;
+    position: absolute;
+    top: 70vh;
+    left: 2vw;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    font-family: brut, "Neue Montreal";
+    color: white;
+    font-weight: 100;
+    font-size: 3rem;
+}
+.text{
+    font-family: sans-serif;
+    color: white;
+    font-size: 1rem;
+    width: 80%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.arrow{
+    width: 20%;
+    position: relative;
+    left: 5vw;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    transition: 0.2s ease;
+    
+}
+.slidebox:hover{
+    border: 1px solid #fff9;
+    background-color: #1c1c1c33;
+}
+.slidebox:hover .arrow{
+    transform: translateX(20px);
+}
+
+/* .text1{
+    transform: translateY(100vh);
+} */
