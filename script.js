@@ -78,7 +78,8 @@ function moveCarousel() {
   console.log(carouselposition);
 }
 setInterval(moveCarousel, 7000);
-window.addEventListener("load",()=>{carouselposition=-400;moveCarousel()})
+window.addEventListener("load",()=>{carouselposition=-400;moveCarousel();document.getElementById("carousel").style.transform= `translateY(0vh)`
+})
 document.addEventListener("click", (e)=>{
   if(e.target.id=="circle2"){carouselposition=0;moveCarousel()}
   else if(e.target.id=="circle3"){carouselposition=-100;moveCarousel()}
