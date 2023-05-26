@@ -4,7 +4,7 @@
     flex-direction: row;
     height: 100vh;
     position: absolute;
-    top: 0;
+    top: 0vh;
     transition: 0.5s ease;
     cursor: grab;
 }
@@ -46,66 +46,69 @@
 }
 
 .slidetop {
-    position: absolute;
+    position: relative;
     display: block;
     top: 0vh;
     left: 10vw;
-    font-family: brut, "Neue Montreal";
-    color: #ff3d00;
     font-weight: 100;
     font-size: 12rem;
+    overflow: hidden;
 }
 
+
 .slideleft {
-    position: absolute;
-    display: block;
-    top: 35vh;
+    position: relative;
+    top: 5vh;
     left: 2vw;
-    font-family: brut, "Neue Montreal";
-    color: #ff3d00;
     font-weight: 100;
     font-size: 12rem;
+    overflow: hidden;
 }
 
 .slideright {
-    position: absolute;
-    display: block;
-    top: 35vh;
+    position: relative;
+    top: -25vh;
     left: 70vw;
-    font-family: brut, "Neue Montreal";
-    color: #ff3d00;
     font-weight: 100;
     font-size: 12rem;
+    overflow: hidden;
 }
 
 .slidebottom {
 
-    position: absolute;
+    position: relative;
     display: block;
-    top: 70vh;
+    top: -20vh;
     left: 50vw;
-    font-family: brut, "Neue Montreal";
-    color: #ff3d00;
     font-weight: 100;
     font-size: 12rem;
-
+    overflow: hidden;
 }
 .slidebox{
     padding: 15px;
     border: 1px solid rgba(255, 255, 255, 0.4);
     width: 30vw;
     height: 20vh;
-    position: absolute;
+    position: relative;
+    top: -55vh;
+    left: 2vw;
+    cursor: pointer;
+}
+.slidebox2{
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    width: 30vw;
+    height: 20vh;
+    position: relative;
     top: 70vh;
     left: 2vw;
     cursor: pointer;
 }
 .heading{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     height: 60%;
-    font-family: brut, "Neue Montreal";
     color: white;
     font-weight: 100;
     font-size: 3rem;
@@ -136,6 +139,7 @@
     transform: translateX(20px);
 }
 
-/* .text1{
-    transform: translateY(100vh);
-} */
+.text1,.text2,.text3,.text4{
+    transform: translateY(40vh);
+    transition: 1s ease;
+}

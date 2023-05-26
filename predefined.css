@@ -1,11 +1,31 @@
-.halfwidth{
+.halfwidth {
     width: 50vw;
 
 }
-.whitetext{
+
+.whitetext {
     color: white;
 }
-.blacktext{
+
+.blacktext {
     color: black;
 }
 
+.orange {
+    color: #ff3d00;
+}
+
+.fragmentfont {
+
+    font-family: Fragment-Light, "Neue Montreal";
+}
+
+.brutfont {
+    font-family: brut, "Neue Montreal";
+}
+.editorialfont{
+    font-family: 'EditorialOld-Light';
+}
+.neueufont{
+    font-family: neue-montreal, "Neue Montreal";
+}
