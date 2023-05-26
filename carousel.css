@@ -143,3 +143,22 @@
     transform: translateY(40vh);
     transition: 1s ease;
 }
+.carouselcontrol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 10vw;
+    position: absolute;
+    top: 90vh;
+    right:  15vw;
+    z-index: 3;
+}
+.circle{
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.circle:hover{
+    cursor: pointer;
+}
