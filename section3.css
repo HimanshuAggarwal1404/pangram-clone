@@ -1,19 +1,19 @@
-.section3{
+.section3 {
     display: flex;
-    flex-direction:row ;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 200vh;
-    border: 2px solid red;    
     width: 100vw;
     overflow: hidden;
 }
-.col{
+
+.col {
     display: flex;
     flex-direction: column;
 }
-.section3box{
+
+.section3box {
     height: 55vh;
     width: 23vw;
     border: 2px solid white;
@@ -24,23 +24,29 @@
     background-color: rgb(25, 25, 25);
     color: white;
 }
-.section3box:hover{
+
+.section3box:hover {
     background-color: white;
-color: black;
+    color: black;
+    cursor: pointer;
 }
-.col-2{
+
+.col-2 {
     position: relative;
     top: 50vh;
 }
-.col-3{
+
+.col-3 {
     position: relative;
     top: 25vh;
 }
-.col-4{
+
+.col-4 {
     position: relative;
     top: 35vh;
 }
-.aa{
+
+.aa {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -48,11 +54,13 @@ color: black;
     font-size: 9rem;
     padding-left: 15px;
 }
-.aa1{
+
+.aa1 {
     font-family: "preview_editorial-new-light";
 
 }
-#box5{
+
+#box5 {
     background-color: white;
     width: 23vw;
     height: 23vw;
@@ -62,10 +70,56 @@ color: black;
     align-items: center;
     color: black;
 }
-.desc5{
+#box5:hover{
+    color: rgb(34, 34, 34);
+    cursor: pointer;
+}
+.desc5 {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2.3rem;
+}
+
+.aa3 {
+    font-family: "preview_right-didone-medium";
+}
+
+.aa2 {
+    font-family: "preview_fragment-glare-regular";
+}
+
+.aa4 {
+    font-family: "preview_right-serif-medium";
+}
+
+.aa6 {
+    font-family: "preview_right-slab-medium";
+}
+
+.aa7 {
+    font-family: "preview_acma-semibold";
+}
+
+.aa8 {
+
+    font-family: "preview_writer-book";
+}
+
+.aa9 {
+    font-family: "preview_telegraf-regular";
+}
+
+.aa10 {
+    font-family: "preview_neue-machina-collection-regular";
+}
+
+.aa11 {
+    font-family: "preview_mori-Regular";
+}
+
+.aa12 {
+    font-family: "preview_right-sans-medium";
+
 }

@@ -142,47 +142,46 @@ function box1hover(){
   aa1.style.justifyContent="center";
 }
 function box2hover(){
-  aa2.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa2.innerHTML="Foxy diva Jennifer Lopez wasn’t baking my quiche.";
   aa2.style.fontSize="2.2rem";
   aa2.style.justifyContent="center";
 }
 function box3hover(){
-  aa3.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa3.innerHTML="Foxy diva Jennifer Lopez wasn’t baking my quiche.";
   aa3.style.fontSize="2.2rem";
   aa3.style.justifyContent="center";
 }
 function box4hover(){
-  aa4.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa4.innerHTML="My girl wove six dozen plaid jackets before she quit.";
   aa4.style.fontSize="2.2rem";
   aa4.style.justifyContent="center";
 }
-
 function box6hover(){
-  aa6.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa6.innerHTML="Foxy diva Jennifer Lopez wasn’t baking my quiche.";
   aa6.style.fontSize="2.2rem";
   aa6.style.justifyContent="center";
 }function box7hover(){
-  aa7.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa7.innerHTML="We promptly judged antique ivory buckles for the next prize.";
   aa7.style.fontSize="2.2rem";
   aa7.style.justifyContent="center";
 }function box8hover(){
-  aa8.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa8.innerHTML="The explorer was frozen in his big kayak just after making queer discoveries.";
   aa8.style.fontSize="2.2rem";
   aa8.style.justifyContent="center";
 }function box9hover(){
-  aa9.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa9.innerHTML="Jackie will budget for the most expensive zoology equipment.";
   aa9.style.fontSize="2.2rem";
   aa9.style.justifyContent="center";
 }function box10hover(){
-  aa10.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa10.innerHTML="While Suez sailors wax parquet decks, Afghan jews vomit jauntily abaft.";
   aa10.style.fontSize="2.2rem";
   aa10.style.justifyContent="center";
 }function box11hover(){
-  aa11.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa11.innerHTML="In Baghdad, a quail gawked at a camel playing sexy lo-fi Peruvian jazz.";
   aa11.style.fontSize="2.2rem";
   aa11.style.justifyContent="center";
 }function box12hover(){
-  aa12.innerHTML="Few Black taxis drive up major roads on quiet hazy nights";
+  aa12.innerHTML="In Baghdad, a quail gawked at a camel playing sexy lo-fi Peruvian jazz.";
   aa12.style.fontSize="2.2rem";
   aa12.style.justifyContent="center";
 }

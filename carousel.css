@@ -24,7 +24,6 @@ body{
 .slide4,
 .slide5 {
     width: 100vw;
-    height: 100vh;
     background-size: 100vw;
     background-repeat: no-repeat;
 }
@@ -109,7 +108,6 @@ body{
     width: 30vw;
     height: 20vh;
     position: relative;
-    top: 70vh;
     left: 2vw;
     cursor: pointer;
 }
