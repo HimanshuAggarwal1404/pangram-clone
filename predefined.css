@@ -15,9 +15,14 @@
     color: #ff3d00;
 }
 
+@font-face {
+    font-family: "Fragment-Light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPFragment-GlareLightItalic.woff?v=157666343227082492511680612148") format("truetype");
+}
+
 .fragmentfont {
 
-    font-family: Fragment-Light, "Neue Montreal";
+    font-family: "Fragment-Light";
 }
 
 .brutfont {
@@ -28,4 +33,9 @@
 }
 .neueufont{
     font-family: neue-montreal, "Neue Montreal";
+}
+
+@font-face {
+    font-family: "preview_editorial-new-light";
+    src:url("//cdn.shopify.com/s/files/1/2642/6578/t/28/assets/PPEditorialOld-LightItalic.woff?v=43892641468580326521678141322") format("woff");
 }

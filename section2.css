@@ -1,0 +1,21 @@
+.section2{
+    height: 110vh;
+    width: 100vw;
+    position: absolute;
+    top: 100vh;
+    padding: 4vh;
+    overflow: hidden;
+}
+.text_section2{
+    display: flex;
+    width: 70vw;
+    font-size: 2.8rem;
+}
+.text2_section2{
+    display: flex;
+    position: relative;
+    width: 20vw;
+    font-size: 1.2rem;
+    top: 20vh;
+    left: 70vw;
+}
